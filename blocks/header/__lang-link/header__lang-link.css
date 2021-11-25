@@ -8,7 +8,7 @@
     text-align: right;
     color: #FFFFFF;
     text-decoration: none;
-    transition: opacity 50s;/*хочется 50*/
+    transition: opacity 3.50s;
 }
 
 .header__lang-link:hover { /* без выноса в микс для большей независимсоти, т.к. всего 2 блока ссылок не считая языков */

@@ -11,7 +11,6 @@
     background-size: cover;
     color: #FFFFFF;
     text-decoration: none;
-    transition: opacity 3.0s;
 }
 
 .cover__link::before {
@@ -25,6 +24,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    transition: opacity 3.0s;
 
 }
 
