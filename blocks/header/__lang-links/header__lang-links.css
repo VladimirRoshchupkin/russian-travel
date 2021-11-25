@@ -1,0 +1,12 @@
+.header__lang-links {
+    display: flex;
+    list-style: none;
+    margin: 0 0 6px; /*можно вообще не менять через медиазапрос и calc, т.к. допустимое отклонение по чеклисту для экрана 320зч +-10px, а разнича значений всего 2px*/
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-links {
+        margin: 0 0 8px; /*можно было и через calc, чтобы исключить в блоке медиазапрос, но из за двух пикселей лень*/
+    }
+}

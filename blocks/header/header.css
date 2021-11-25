@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*padding: 28px 48px;*/
+    /*padding: 28px minmax(calc(100vw/26),48px);*/
+    /*padding: min(calc(100vw/20),28px) max(min(calc(100vw/26),48px),16px) max(min(calc(100vw/22.85),56px),48px);*/
+    padding: max(min(calc(6px + (100vw - 320px)/18.0),28px),16px) max(min(calc(23px + (100vw - 768px)/10.0),48px),24px) max(min(calc(100vw/22.85),56px),48px);
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

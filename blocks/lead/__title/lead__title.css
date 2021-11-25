@@ -1,0 +1,23 @@
+.lead__title {
+    /*width: 720px;
+    height: 200px;
+    width: max(min(calc((100vw + 200px)/1.112),720px),288px);*/
+    width: max(min(calc(288px + (100vw - 320px)/448*432),720px),288px);
+    min-height: max(min(calc(100vw/4),200px),80px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104%  max(min(calc(100vw/2.26),176px),142px)*/
+    text-align: center;
+    /*margin:28px 0 32px;*/
+    margin:0 0 max(min(calc(100vw/20),32px),16px);
+    }
+
+    @media screen and (max-width: 767px) {
+        .lead__title {
+            font-size: 40px;
+            line-height: 44px;
+            /* or 110% */
+        }
+    }

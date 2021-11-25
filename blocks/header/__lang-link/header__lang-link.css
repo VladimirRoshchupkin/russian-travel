@@ -1,0 +1,14 @@
+.header__lang-link {
+    /*margin-left: 18px; Отступ одинаковый на всех экранах*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height, or 117% */
+    text-align: right;
+    transition: opacity 50s;/*хочется 50*/
+}
+
+.header__lang-link:hover { /* без выноса в микс для большей независимсоти, т.к. всего 2 блока ссылок не считая языков */
+    opacity: 0.8;
+}

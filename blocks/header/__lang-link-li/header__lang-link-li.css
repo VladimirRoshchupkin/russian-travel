@@ -1,0 +1,17 @@
+.header__lang-link-li {
+    margin-left: 18px;
+}
+
+.header__lang-link-li:nth-child(1) {
+    margin-left: 0;
+}
+
+/*по чек листу необходимо использовать модификатор дл подчеркивания, но он ведь не отразит действительно выбранный язык на данном уровне кода???
+Но, если будет надо, то заменю на статичный модификатор*/
+.header__lang-link-li:nth-child(1):lang(ru) {/*теперь при смене языка в html автоматически подчеркивается необходимая ссылка*/
+    text-decoration: underline;
+}
+
+.header__lang-link-li:nth-child(2):lang(en) {/*теперь при смене языка в html автоматически подчеркивается необходимая ссылка*/
+    text-decoration: underline;
+}

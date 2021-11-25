@@ -1,0 +1,10 @@
+.lead__svg {
+    width: calc(100%/1.05);
+    height: calc((100vw - 2*(max(min(calc(148px - (1280px - 100vw)/2.56),148px),0px)))/1.6/2.338);
+    position: absolute;
+    top: calc((100% - 22px)*0.36); 
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    object-fit: contain;
+}

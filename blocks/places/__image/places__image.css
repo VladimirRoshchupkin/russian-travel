@@ -1,0 +1,10 @@
+.places__image {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    object-fit: fill;
+    max-width: 100%;
+    margin: 0 auto;
+}

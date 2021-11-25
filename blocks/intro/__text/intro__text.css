@@ -1,0 +1,16 @@
+.intro__text {
+    max-width: 690px;
+    /*height: 208px; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    margin: 0 0 33px; /*для 320px отступ в 34px считаем ошибкой дизайнера, оставляем 33*/
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: min(100%,720px);
+    }
+}

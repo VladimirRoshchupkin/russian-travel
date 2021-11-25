@@ -1,0 +1,10 @@
+.header__logo {
+    background-image: url(../../../images/header-logo.svg);
+    /*width: 176px;
+    height: 52px;*/
+    width: max(min(calc(100vw/2.26),176px),142px);
+    height: max(min(calc(100vw/7.62),52px),42px);
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
