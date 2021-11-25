@@ -12,3 +12,4 @@
 * Адаптивно-резинвая верстка (даже margin\padding тянуться там где это возможно)
 
 #####ссылка на GitHub Pages.
+https://vladimirroshchupkin.github.io/russian-travel/
