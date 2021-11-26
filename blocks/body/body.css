@@ -1,0 +1,6 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Чтобы выорвнять по центру для больших разрешений при ограничении ширины контента*/
