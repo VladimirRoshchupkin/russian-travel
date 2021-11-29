@@ -1,7 +1,7 @@
 .lead__caption{
-    margin: 8px 0 0; /*Отступ слева 0 0 24 16 через медиазапрос*/
-    /*min-width: 158px;Настройки шрифта как в фигме, но текст не влазит в 158????*/
-    min-height: 14px;
+    margin: 8px 0 0; 
+    /*min-width: 158px;Настройки шрифта как в фигме, но текст не влазит в 158????
+    min-height: 14px;по сути это уже указано в line-height, но вначале не задумывался об этом*/
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -13,12 +13,12 @@
 
 @media screen and (max-width: 1023px) {
     .lead__caption{
-        margin: 8px 0 0 24px; /*Отступ слева 0 0 24 16 через медиазапрос*/
+        margin: 8px 0 0 24px; 
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__caption{
-        margin: 8px 0 0 16px; /*Отступ слева 0 0 24 16 через медиазапрос*/
+        margin: 8px 0 0 16px; 
     }
 }

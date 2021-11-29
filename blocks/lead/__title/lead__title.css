@@ -3,7 +3,7 @@
     height: 200px;
     width: max(min(calc((100vw + 200px)/1.112),720px),288px);*/
     width: max(min(calc(288px + (100vw - 320px)/448*432),720px),288px);
-    min-height: max(min(calc(100vw/4),200px),80px);
+    /*min-height: max(min(calc(100vw/4),200px),80px); пу сути это line-height, еще и ошибку допустил 80 вместо 88*/
     font-style: normal;
     font-weight: 900;
     font-size: 96px;

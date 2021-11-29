@@ -11,6 +11,13 @@
     transition: opacity 3.50s;
 }
 
-.header__lang-link:hover { /* без выноса в микс для большей независимсоти, т.к. всего 2 блока ссылок не считая языков */
+.header__lang-link:hover { /* без выноса в микс для большей независимости, т.к. всего 2 блока ссылок не считая языков */
     opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

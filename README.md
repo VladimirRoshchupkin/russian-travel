@@ -9,7 +9,7 @@
 
 ## Используемые технологии
 * БЭМ
-* Адаптивно-резинвая верстка (даже margin\padding тянуться там где это возможно)
+* Адаптивно-резиновая верстка (даже margin\padding тянутся там где это возможно)
 
-#####ссылка на GitHub Pages.
+##### ссылка на GitHub Pages.
 https://vladimirroshchupkin.github.io/russian-travel/

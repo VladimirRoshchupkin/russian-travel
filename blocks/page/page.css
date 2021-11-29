@@ -3,6 +3,6 @@
     color: #FFFFFF;
     font-family: Inter, Arial, Helvetica, sans-serif;
     min-width: 320px;
-    max-width: 1920px;/*По брифу можно ограничить и 1280, но не зря же calc тянут блоки при увеличении разрешения*/
+    max-width: 1280px;/*Ограничил как указали 1280, чтобы выше вся графика была одинаковой*/
 }
 

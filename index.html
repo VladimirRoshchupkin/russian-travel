@@ -11,16 +11,16 @@
     <header class="header">
       <!--<div class="header__row-cont">-->
       <div class="header__logo"></div>
-      <nav class="header__lang-nav">
+      <div class="header__lang-cont">
         <ul class="header__lang-links">
           <li class="header__lang-link-li">
-            <a class="header__lang-link" href="#">Ru</a>
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           </li>
           <li class="header__lang-link-li">
             <a class="header__lang-link" href="#">En</a>
           </li>
         </ul>
-      </nav>
+      </div>
       <!--</div>-->
     </header>
     <main class="content">
@@ -77,7 +77,7 @@
       </section>
 
       <section class="places">
-        <div class="places__place">
+        <article class="places__place"><!--Пока не буду выводить в отдельный блок, т.к. ему всё равно будет нужен контейнер для позиционирования в 99% случаев. пусть это будет моя прихоть или упёртость) Над тем как поступить долго размышлял и пока верх взял именно этот вариант-->
           <h2 class="places__title">Куршская коса</h2>
           <div class="places__url-cont">
             <p class="places__url-heading">URL</p>
@@ -95,9 +95,9 @@
               стального, прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="places__place">
+        <article class="places__place">
           <h2 class="places__title">Кольский</h2>
           <div class="places__url-cont">
             <p class="places__url-heading">URL</p>
@@ -115,9 +115,9 @@
               билетом в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="places__place">
+        <article class="places__place">
           <h2 class="places__title">Алтай</h2>
           <div class="places__url-cont">
             <p class="places__url-heading">URL</p>
@@ -135,9 +135,9 @@
               а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="places__place">
+        <article class="places__place">
           <h2 class="places__title">Зимний Байкал</h2>
           <div class="places__url-cont">
             <p class="places__url-heading">URL</p>
@@ -154,9 +154,9 @@
               поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="places__place">
+        <article class="places__place">
           <h2 class="places__title">Карелия</h2>
           <div class="places__url-cont">
             <p class="places__url-heading">URL</p>
@@ -172,7 +172,7 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
